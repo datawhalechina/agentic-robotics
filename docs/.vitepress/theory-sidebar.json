@@ -1,0 +1,84 @@
+[
+  {
+    "text": "导论",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "第 01 章 导论",
+        "link": "/theory/chapter-01"
+      }
+    ]
+  },
+  {
+    "text": "第一部分 执行",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "第 02 章 能力接口与门控",
+        "link": "/theory/chapter-02"
+      },
+      {
+        "text": "第 03 章 编排",
+        "link": "/theory/chapter-03"
+      },
+      {
+        "text": "第 04 章 监控与恢复",
+        "link": "/theory/chapter-04"
+      },
+      {
+        "text": "第 05 章 记忆",
+        "link": "/theory/chapter-05"
+      },
+      {
+        "text": "第 06 章 分层系统",
+        "link": "/theory/chapter-06"
+      }
+    ]
+  },
+  {
+    "text": "第二部分 改技能",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "第 07 章 技能与技能库",
+        "link": "/theory/chapter-07"
+      },
+      {
+        "text": "第 08 章 技能与 Harness 的演化",
+        "link": "/theory/chapter-08"
+      }
+    ]
+  },
+  {
+    "text": "第三部分 改权重",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "第 09 章 评估与验证",
+        "link": "/theory/chapter-09"
+      },
+      {
+        "text": "第 10 章 智能体驱动的机器人策略训练",
+        "link": "/theory/chapter-10"
+      },
+      {
+        "text": "第 11 章 智能体采集与整理机器人数据",
+        "link": "/theory/chapter-11"
+      },
+      {
+        "text": "第 12 章 智能体搭建仿真场景与任务",
+        "link": "/theory/chapter-12"
+      }
+    ]
+  },
+  {
+    "text": "收尾 闭环与证据",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "第 13 章 闭环：递归自我改进与证据",
+        "link": "/theory/chapter-13"
+      }
+    ]
+  }
+]

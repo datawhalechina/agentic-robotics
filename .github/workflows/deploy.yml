@@ -41,19 +41,23 @@ jobs:
         with:
           node-version: 24
           cache: npm # 或 pnpm / yarn
+      # 只有仓库在 datawhalechina 组织下时才发布；在别处只构建，用来检查站点能否正常生成
       - name: Setup Pages
+        if: github.repository_owner == 'datawhalechina'
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
+        if: github.repository_owner == 'datawhalechina'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
 
   # 部署工作
   deploy:
+    if: github.repository_owner == 'datawhalechina'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

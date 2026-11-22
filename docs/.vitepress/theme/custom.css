@@ -432,3 +432,10 @@ td {
   width: 10%;
   /* 强制均匀分配宽度 */
 }
+/* 课程的图在正文里写明了显示宽度：按写明的宽度居中显示，不受上面“高度不超过半屏”的限制 */
+.vp-doc p[align="center"] > img[width] {
+  max-width: 100%;
+  max-height: none;
+  height: auto;
+  margin: 1rem auto;
+}

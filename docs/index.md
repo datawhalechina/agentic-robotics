@@ -3,48 +3,22 @@
 layout: home
 
 hero:
-  name: "Datawhale开源教程"
-  text: "AI前沿知识开源教程"
-  tagline: 开始学起来吧~
-  image:
-    src: /learning.GIF
-    alt: Datawhale开源教程
+  name: "机器人智能体"
+  text: "原理、仿真与实战"
+  tagline: 从任务执行到技能演化与策略学习
   actions:
     - theme: brand
-      text: 开始学习
-      link: /chapter1/
+      text: 开始阅读
+      link: /theory/chapter-01
+    - theme: alt
+      text: 理论目录
+      link: /theory/
 
 features:
-  - title: 💥 前沿
-    details: 紧跟技术发展输出最前沿的知识
-  - title: 🎁 免费
-    details: 无任何形式的收费
-  - title: 🌐 开源
-    details: 教程和代码源文件全部托管在GitHub
+  - title: 执行
+    details: 大模型通过 Harness 调用机器人的能力，完成任务：能力接口与门控、编排、监控与恢复、记忆、分层系统。
+  - title: 改进
+    details: 把有效的做法存成技能，根据失败修订；训练策略，整理数据，搭建仿真场景。
+  - title: 证据
+    details: 每一次改动都要拿得出证据：谁来判定成功，怎样比较两个版本，哪些步骤留给人。
 ---
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://www.github.com/Sm1les.png',
-    name: 'Sm1les',
-    title: '项目负责人',
-    links: [
-      { icon: 'github', link: 'https://github.com/Sm1les' },
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/Sm1les.png',
-    name: '马里奥',
-    title: '核心贡献者',
-    links: [
-      { icon: 'github', link: 'https://github.com/Sm1les' },
-    ]
-  }
-]
-</script>
-
-
-<h2 align="center">Team</h2>
-<VPTeamMembers size="small" :members />

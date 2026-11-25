@@ -7,7 +7,7 @@ import theorySidebar from './theory-sidebar.json'
 // 否则默认是 GitHub Pages 环境，使用仓库子路径
 const isEdgeOne = process.env.EDGEONE === '1'
 // 仓库的地址和名称只在这里写一次，仓库转移或改名以后改这两行
-const repoUrl = 'https://github.com/ruyiluo/agentic-robotics'
+const repoUrl = 'https://github.com/datawhalechina/agentic-robotics'
 const repoName = 'agentic-robotics'
 const baseConfig = isEdgeOne ? '/' : `/${repoName}/`
 
